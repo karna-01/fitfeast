@@ -11,7 +11,7 @@ function Product(props) {
   const navigate=useNavigate()
   const [isInCart, setIsInCart] = useState(false);
   // const {counter,setCounter}=useState(0)
-//  console.log(currentUser)
+  // console.log(currentUser)
 
 
   useEffect(() => {

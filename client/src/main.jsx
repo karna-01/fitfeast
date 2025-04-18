@@ -14,7 +14,7 @@ import Cart from './Components/Cart/Cart'
 import Plan from './Components/Plans/Plan'
 import './App.css'
 import FilterContext from './Contexts/FilterContext'
-// import App from './App.jsx'
+//  import App from './App.jsx'
 
 const browserRouterObj = createBrowserRouter([
   {

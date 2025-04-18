@@ -257,7 +257,7 @@ function Plan() {
 
     return (
         currentUser.age === 0 || currentUser.height === 0 || currentUser.weight === 0 || currentUser.gender === "" || currentUser.desiredweight === 0 ? (<div>
-            <h1>Edit Your Profile</h1>
+            <h1 className='mt-5'>Edit Your Profile</h1>
             <p>Please add your age, height, gender, and weight to proceed with the plans form.</p>
             <button className='btn btn-secondary text-white mt-auto' onClick={() => navigate(`/user-profile/${currentUser.email}`)}>
                 Edit Profile
